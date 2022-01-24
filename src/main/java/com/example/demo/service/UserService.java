@@ -15,9 +15,10 @@ public class UserService {
     static {
         users.add(new User(1,"jana",1997));
         users.add(new User(2,"jasa",1930));
+        users.add(new User(3,"hasalanka",1948));
     }
     public List<User> findAllusers(){
-
+gi
         return users;
     }
     public User addUser(User user) {
